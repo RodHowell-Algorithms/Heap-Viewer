@@ -20,7 +20,7 @@ To create and manipulate a heap, enter any integer in the text field in the uppe
 
 ## Compiling the Code
 
-If you wish to modify the code, you will need to download a copy, either by cloning it with `git` or by downloading and decompressing a [ZIP archive](). To compile the code, assuming you have the [Java Development Kit (JDK)](https://www.java.com/en/download/manual.jsp) installed, enter the following from a command line within the root folder of the project (i.e., the one containing the subfolder `edu`):
+If you wish to modify the code, you will need to download a copy, either by cloning it with `git` or by downloading and decompressing a [ZIP archive](https://github.com/RodHowell-Algorithms/Heap-Viewer/archive/refs/heads/main.zip). To compile the code, assuming you have the [Java Development Kit (JDK)](https://www.java.com/en/download/manual.jsp) installed, enter the following from a command line within the root folder of the project (i.e., the one containing the subfolder `edu`):
 
 <pre>
 javac -classpath one-jar/lib/viewer.jar edu/ksu/cis/heapviewer/*.java
@@ -42,7 +42,7 @@ To create a JAR archive, you will first need to create an archive containing jus
 jar -c -f heapviewer-only.jar @options.txt edu/ksu/cis/heapviewer/*.class
 </pre>
 
-This creates the Jar archive `heapviewer-only.jar`. It can be run by opening it, but only if the file `viewer.jar` (found in the folder `one-jar/lib`) is in the same folder. These can be packaged together using [one-jar](http://one-jar.sourceforge.net/index.php?page=getting-started&file=quickstart). First, move `heapviewer-only.jar` to the folder `one-jar/main`. Then from the `one-jar` folder:
+This creates the Jar archive `heapviewer-only.jar`. It can be run by opening it, but only if the file `viewer.jar` (found in the folder `one-jar/lib`) is in the same folder. These can be packaged together using [One-Jar<sup>TM</sup>](http://one-jar.sourceforge.net/index.php?page=getting-started&file=quickstart). First, move `heapviewer-only.jar` to the folder `one-jar/main`. Then from the `one-jar` folder:
 
 <pre>
 jar -c -f ../heapviewer.jar -m boot-manifest.mf .
