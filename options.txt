@@ -1,0 +1,2 @@
+--manifest Manifest.txt
+--main-class edu.ksu.cis.heapviewer.Viewer
