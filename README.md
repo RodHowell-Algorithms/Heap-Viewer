@@ -4,7 +4,7 @@
 
 ## Installation
 
-To install the application, simply download the JAR archive `heapviewer.jar`. The [Java<sup>TM</sup> SE Runtime Environment (JRE)](https://java.com) is required to run the heap viewer.
+To install the application, simply download the JAR archive [`heapviewer.jar`](https://github.com/RodHowell-Algorithms/Heap-Viewer/raw/main/heapviewer.jar). The [Java<sup>TM</sup> SE Runtime Environment (JRE)](https://java.com) is required to run the heap viewer.
 
 ## Usage
 
